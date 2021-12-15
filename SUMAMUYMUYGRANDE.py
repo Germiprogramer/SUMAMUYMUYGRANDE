@@ -7,7 +7,7 @@ matriz = []
 for i in range(numero_filas):
     matriz.append([])
     for j in range(numero_columnas):
-        matriz[i].append(int(randint(0,100)))
+        matriz[i].append(int(randint(0,10000000000000)))
 
 suma = 0
 
